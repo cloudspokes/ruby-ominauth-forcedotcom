@@ -1,0 +1,17 @@
+<h1>Your Accounts</h1>
+
+<table>
+  <thead>
+    <tr><th>ID</th><th>Name</th></th>
+  </thead>
+  <tbody>
+    <% for account in @accounts %>
+    <tr>
+      <td><%= account['Id'] %></td>
+      <td><%= account['Name'] %></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<a href='/logout'>Clear Session and Log Out</a>

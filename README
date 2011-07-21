@@ -1,0 +1,13 @@
+OAuth2 with OmniAuth for Force.com & Heroku
+
+URL: http://www.cloudspokes.com/challenge_detail.html?contestID=136
+Blog: http://blog.cloudspokes.com/2011/03/our-first-ruby-winner-omniauth-for.html
+Challenge end date: Tue Mar 15 05:00:00 GMT 2011
+
+Description
+===========
+OmniAuth is a Ruby authentication system for multi-provider external authentcation. OmniAuth currently supports OAuth authentication for Facebook, Twitter, LinkedIn, TripIt and many more. We&#39;d like to build OAuth support for Force.com into OmniAuth as well. Create a simple web application hosted on Heroku that authorizes API access to a Force.com Developer Org and displays a list of Accounts using the REST API.
+
+Requirements
+============
+The application should run on Ruby 1.9, Rails 3 &amp; Heroku. There are number of blog posts and screencasts for developing additional providers for OmniAuth at the github project site.

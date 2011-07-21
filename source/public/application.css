@@ -1,0 +1,68 @@
+body {
+  background: #ccc;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+a {
+  color: #28a;
+}
+
+h1 {
+  font-family: Arvo, sans-serif;
+}
+
+#heading {
+  text-align: center;
+  width: 700px;
+  padding: 20px 0;
+  margin: 0 auto;
+  background: #333;
+  color: white;
+  font-weight: normal;
+}
+
+#login {
+  background: #37a;
+  font-family: Arvo;
+  padding: 15px 25px;
+  font-size: 28px;
+  color: white;
+  display: block;
+  width: 300px;
+  text-decoration: none;
+  margin: 0 auto
+}
+
+#content {
+  display: block;
+  background: white;
+  width: 660px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+#content h1 {
+  margin: 0 0 20px;
+  font-weight: normal;
+}
+
+table {
+  margin: 15px;
+  padding: 0;
+  border-collapse: collapse;
+}
+
+thead th {
+  background: #333;
+  color: white;
+  padding: 5px 8px;
+}
+
+tbody td {
+  padding: 5px 8px;
+}
+
+tbody tr:even-child td {
+  background: #eee;
+}
